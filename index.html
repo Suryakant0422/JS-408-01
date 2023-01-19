@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaderBoard</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <h2>30 Days of JavaScript Challenge Leaderboard</h2>
+
+    <div class="details">
+        <input type="text" name="fname" id="fname" placeholder="First name">
+        <input type="text" name="lname" id="lname" placeholder="Last Name">
+        <input type="text" name="country" id="country" placeholder="Country">
+        <input type="text" name="score" id="score" placeholder=" Player Score">
+        <button type="button" id="addPlayer" onclick="addplayer()">Add Player</button>
+    </div>
+    <p id="required"></p>
+
+   <div id="container">
+     <div id="innerContainer"></div>
+   </div>
+    
+</body>
+</html>

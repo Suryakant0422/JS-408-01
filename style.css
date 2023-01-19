@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-top: 50px;
+}
+.details{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+input{
+    width: 160px;
+    height: 35px;
+    padding: 5px;
+    margin: 0px 5px;
+    border-color: rgb(231, 169, 114);
+}
+input:focus{
+    border-color: rgb(231, 169, 114);
+}
+p{
+    color: red;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#addPlayer{
+    width: 160px;
+    height: 48px;
+    color: white;
+    background-color: rgb(231, 169, 114);
+    border: none;
+}
+#container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* height: 100vh;
+   width: 100vw; */
+   
+}
+table tr{
+    background-color: rgb(231, 169, 114);
+    display:flex;
+    flex-direction: row;
+    width: 900px;
+    height: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.buttondel{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    border:none;      
+    background-color:white;
+
+}
+.buttonplus{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    border:none;      
+    background-color:white;
+}
+.buttonminus{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    border:none;      
+    background-color:white;
+
+}
